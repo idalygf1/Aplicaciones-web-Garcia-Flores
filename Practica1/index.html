@@ -8,44 +8,106 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre Mí</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="encabezado">
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#Sobre-mi">QUIÉNES SOMOS</a></li>
+                <li><a href="#Galeria-Productos">PRODUCTOS</a></li>
+                <li><a href="#Contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
 
-    
+        <div class="slides">
+            <img src="assets/Imagenes/slider/encabezado1.jpg" alt="encabezado1" class="slide active" />
+        <img src="assets/Imagenes/slider/encabezado2.jpg" alt="encabezado2" class="slide" />
+        <img src="assets/Imagenes/slider/encabezado3.jpg" alt="encabezado3" class="slide" />
+        <img src="assets/Imagenes/slider/encabezado4.jpg" alt="encabezado3" class="slide" />
+
+
+        </div>
+    </div>
+
+    <script src="assets/scripts/slider.js"></script>
+
+
     <!-- Sección principal -->
     <section>
-        <h1>Bienvenidos a mi pagina </h1>
-        <p>Esta es mi primera pagina principal, aquí puedes encontrar datos sobre mí</p>
+        <h1> B E L L A ' S </h1>
+        <p>SIÉNTETE BELLA CON NUESTROS PRODUCTOS</p>
     </section>
 
     <!-- Sección "Sobre mí" -->
     <section>
-        <h2>SOBRE MÍ</h2>
+        <h2>PRODUCTOS QUE TENEMOS PARA TI</h2>
         <ul>
-            <li>Mi nombre completo es: Idaly Guadalupe Garcia Flores</li>
-            <li>Tengo 19 años</li>
-            <li>Me gusta usar Instagram</li>
+            <p>M A K E U P</p>
+            <P>S K I N C A R E</p>
+            <p>H A I R C A R E</p>
         </ul>
+
+        <!-- Sección "Catalogo de productos" -->
+        <section id="#Galeria-Productos">
+            <div class="galeria">
+                <div class="productos">
+                    <img src="assets/Imagenes/producto1.jpg" alt="Producto1">
+                    <h3> PRODUCTO 1</h3>
+                    <p> S E R U M </p>
+                    <button class="boton">COMPRAR</button>
+                </div>
+
+
+            <div class="galeria"></div>
+                <div class="productos">
+                    <img src="assets/Imagenes/producto2.jpg" alt="Producto2">
+                    <h3> PRODUCTO 2</h3>
+                    <p> F O U N D A T I O N</p>
+                    <button class="boton">COMPRAR</button>
+                </div>
+            
+
+            <div class="galeria"></div>
+                <div class="productos">
+                    <img src="assets/Imagenes/producto3.jpg" alt="Producto3">
+                    <h3> PRODUCTO 3</h3>
+                    <p> H I D R A T A N T E</p>
+                    <button class="boton">COMPRAR</button>
+                </div>
+
+                
+            <div class="galeria"></div>
+                <div class="productos">
+                    <img src="assets/Imagenes/producto4.jpg" alt="Producto4">
+                    <h3> PRODUCTO 4</h3>
+                    <p> B L U S H </p>
+                    <button class="boton">COMPRAR</button>
+                </div>
+
+        
+            <div class="galeria"></div>
+                <div class="productos">
+                    <img src="assets/Imagenes/producto5.jpg" alt="Producto5">
+                    <h3> PRODUCTO 5</h3>
+                    <p> S H A M P O O</p>
+                    <button class="boton">COMPRAR</button>
+                </div>    
+            </div>
+        </section>
     </section>
-    <img src="Imagenes/foto.jpg" alt="foto" width="300">
+    
 
     <!-- Formulario de contacto -->
     <section>
         <h2> Contacto</h2>
         <form action="#" method="post">
-            <label for="name">Nombre</label>
+            <label for="name">NOMBRE</label>
             <input type="text" id="name" name="name" required>
             <br>
-            <label for="email">Correo Electrónico</label>
+            <label for="email">E MAIL</label>
             <input type="email" id="email" name="email" required>
             <br>
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <label for="message">MENSAJE</label>
+            <textarea id="message" name="message" rows="7"></textarea>
             <br>
             <input type="submit" value="Enviar">
         </form>
